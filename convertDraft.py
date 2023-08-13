@@ -5,7 +5,7 @@ from playsound import playsound
 # Base setup
 file = open("draft-ta.txt", "r",encoding="utf8").read().replace("\n", " ")
 language = 'ta'
-
+tld=tlds["South Africa"], 
 # make a request to google to get synthesis 
 speech = gtts.gTTS(text = str(file), lang = language, slow = False)
 

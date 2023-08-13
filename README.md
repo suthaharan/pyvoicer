@@ -38,4 +38,4 @@ virtualenv==20.4.0
 Werkzeug==1.0.1
 
 
-$ pip install pipreqs
+$ pip install -r pipreqs
